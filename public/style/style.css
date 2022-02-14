@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.multiselect {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  pointer-events: all;
+}
+
+body {
+  max-width: 800px;
+}
+
+.selectProducts{
+  width: 100%;
+  padding: 16px;
+  border-radius: 10px;
+}
+
+.defaultOption{
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: black;
+  margin-bottom: 8px;
+}
+
+.selectBox select {
+  width: 500px;
+  font-weight: bold;
+}
+
+#checkboxes {
+  width: 100vw;
+  height: 100vh;
+  background-color: #1d1e298c;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.containerCheckboxes {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+#checkboxes label {
+  display: block;
+}
+
+#checkboxes label:hover {
+  background-color: #1e90ff;
+}
+
+#test label {
+  display: block;
+}
+
+#test label:hover {
+  background-color: #1e90ff;
+}
+
+.btn {
+  margin-bottom: 20px;
+}
+
+.blockBtnChoose{
+  margin-top: 10px;
+}
+
+.blockInputBtn {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.inpBtn {
+  border: none;
+  background-color: rgb(255, 255, 255);
+  color: #035b77;
+  cursor: pointer;
+  text-align: right;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.btn {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 11px 20px;
+  background: #035b77;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.blockBtns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.checkbox {
+  margin-right: 5px;
+}
+
+.label {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #484545;
+}
+
+.opt{
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}

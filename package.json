@@ -1,0 +1,28 @@
+{
+  "name": "select",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack",
+    "server": "webpack-dev-server",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ed9n/select.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ed9n/select/issues"
+  },
+  "homepage": "https://github.com/ed9n/select#readme",
+  "dependencies": {
+    "webpack": "^5.68.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
