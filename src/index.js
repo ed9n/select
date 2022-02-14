@@ -195,12 +195,8 @@ btnDelete.addEventListener('click', function () {
     document.querySelectorAll('input[type="checkbox"]').forEach(function (elem) {
         elem.checked = false;
     });
-    // document.querySelectorAll('option').forEach(function(option) {
-    //     option.remove()
-    // });
 });
 
-console.log(select)
 
 
 
