@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/ed9n/select#readme",
   "dependencies": {
+    "express": "^4.17.2",
     "webpack": "^5.68.0"
   },
   "devDependencies": {
